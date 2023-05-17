@@ -1,3 +1,4 @@
+@import "../../styles/variables";
 .banner {
   width: 88%;
   img {
@@ -10,11 +11,12 @@
   h1 {
     position: absolute;
     z-index: 1;
-    color: #d9d9d9;
+    color: $cor-do-texto;
     font-size: 2.5rem;
     width: 401px;
     height: 144px;
     top: 55px;
     left: 44px;
+    font-family: $fonte-bold;
   }
 }
